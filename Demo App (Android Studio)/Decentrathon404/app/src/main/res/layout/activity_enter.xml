@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterActivity">
+
+    <!-- Warning text at the top (same as MainActivity) -->
+    <TextView
+        android:id="@+id/text_view_warning"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/warning_text"
+        android:textSize="12sp"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:gravity="center"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Instruction text in center -->
+    <TextView
+        android:id="@+id/text_view_instruction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/text_view_select_side"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="24sp"
+        android:gravity="start"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <!-- ImageView for Starman-cuate.png -->
+    <ImageView
+        android:id="@+id/image_view_starman"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/starman_cuate"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/illustration_of_a_starman"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_instruction"
+        app:layout_constraintBottom_toTopOf="@+id/button_demo_driver"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Demo Driver Button -->
+    <Button
+        android:id="@+id/button_demo_driver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:text="@string/button_driver_side"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="?attr/colorOnPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/button_demo_client"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Demo Client Button -->
+    <Button
+        android:id="@+id/button_demo_client"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:padding="12dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:text="@string/button_client_side"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="?attr/colorOnPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

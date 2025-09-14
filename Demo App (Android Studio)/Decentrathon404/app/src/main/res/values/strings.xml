@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CTRL ALT ELITE</string>
+
+    <string name="warning_text">This is a mock app to demonstrate some features for Decentrathon 4.0</string>
+    <string name="main_text">InDriver</string>
+    <string name="secondary_text">by Ctrl Alt Elite</string>
+    <string name="enter_button">Enter</string>
+    <string name="text_view_select_side">Select which side demonstration you want to see:</string>
+    <string name="button_driver_side">Driver Side</string>
+    <string name="button_client_side">Client Side</string>
+    <string name="illustration_of_a_starman">Illustration of a starman</string>
+</resources>

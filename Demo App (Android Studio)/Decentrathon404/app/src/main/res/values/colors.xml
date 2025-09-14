@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--  Light.  -->
+    <color name="primary_text">#000000</color>
+    <color name="secondary_text">#666666</color>"
+    <color name="warning_text">#4087E1</color>"
+
+    <color name="primary_button">#BDED1D</color>
+    <color name="primary_button_text">#000000</color>
+
+
+    <!--  Dark.  -->
+    <color name="primary_text_dark">#FFFFFF</color>
+    <color name="secondary_text_dark">#999999</color>"
+    <color name="warning_text_dark">#7EBEFC</color>"
+
+    <color name="primary_button_dark">#BDEA1D</color>
+    <color name="primary_button_text_dark">#000000</color>
+
+</resources>

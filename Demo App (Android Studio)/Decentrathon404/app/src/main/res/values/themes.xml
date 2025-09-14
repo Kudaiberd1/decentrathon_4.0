@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Decentrathon40" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:colorActivatedHighlight">@color/warning_text</item>
+
+        <item name="colorPrimary">@color/primary_button</item>
+        <item name="colorOnPrimary">@color/primary_button_text</item>
+
+    </style>
+
+    <style name="Theme.Decentrathon40" parent="Base.Theme.Decentrathon40" />
+</resources>
